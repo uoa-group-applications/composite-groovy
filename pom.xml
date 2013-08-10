@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>nz.ac.auckland</groupId>
+    <artifactId>uoa-parent</artifactId>
+    <version>1.9</version>
+  </parent>
+  <groupId>nz.ac.auckland.composite</groupId>
+  <artifactId>composite-groovy</artifactId>
+  <version>5.7-SNAPSHOT</version>
+  <packaging>jar</packaging>
+  <name>composite-groovy</name>
+  <description>
+    This holds onto the version of Groovy that we are using in our projects. If we migrate the version of Grails,
+	updating it in one place automatically updates every other project that uses Groovy and allows us to keep in sync
+	with Grails.
+  </description>
+  <dependencies>
+    <dependency>
+      <groupId>org.codehaus.groovy</groupId>
+      <artifactId>groovy-all</artifactId>
+      <version>2.1.6</version>
+    </dependency>
+  </dependencies>
+</project>
