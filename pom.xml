@@ -17,7 +17,7 @@
 	<description>
 		This holds onto the version of Groovy that we are using in our projects. If we migrate the version of Grails,
 		updating it in one place automatically updates every other project that uses Groovy and allows us to keep in
-		sync with Grails.
+		sync with Grails.x.
 	</description>
 
 	<dependencies>
